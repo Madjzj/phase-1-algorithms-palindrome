@@ -4,12 +4,7 @@ function isPalindrome(word) {
   for(letter of word){
     drow = letter + drow
   }
-  console.log(drow + " " + word)
-  if(drow.toLowerCase() === word.toLowerCase()){
-    return true
-  }else{
-    return false
-  }
+  return drow.toLowerCase() === word.toLowerCase()
 }
 
 /* 
@@ -20,7 +15,6 @@ function isPalindrome(word) {
     return true
   else
     return false
-  Add your pseudocode here
 */
 
 /*
